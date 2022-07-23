@@ -1,0 +1,19 @@
+.menu {
+	ul {
+		@apply flex;
+		li {
+			&:not(last-child) {
+				@apply mr-4;
+			}
+		}
+	}
+}
+
+img {
+	width: 100%;
+}
+
+.itemBlog figure {
+	width: 100%;
+	height: 300px;
+}
