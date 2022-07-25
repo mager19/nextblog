@@ -1,4 +1,4 @@
-import Menu from "./menu";
+import Menu from "./Menu";
 import Head from "next/head";
 import Link from "next/link";
 function Layout({ children, metaTitle, description, titlePage }) {
